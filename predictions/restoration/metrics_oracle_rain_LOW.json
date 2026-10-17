@@ -1,0 +1,20 @@
+{
+  "accuracy": 0.2907801418439716,
+  "arm": "oracle",
+  "condition": "rain",
+  "e1_label_histogram": {
+    "rain": 423
+  },
+  "ece15_post_tstar": 0.5332232767949431,
+  "ece15_pre_tstar": 0.18765234873227193,
+  "global_seed": 42,
+  "guard_fired_count": 0,
+  "macro_f1": 0.3128685182516994,
+  "n": 423,
+  "nonfinite_fixed_count": 0,
+  "restored_count": 423,
+  "severity": "LOW",
+  "sky_skipped_count": 0,
+  "t_star": 0.458,
+  "wall_s": 33.01
+}

@@ -1,0 +1,23 @@
+{
+  "accuracy": 0.8841607565011821,
+  "arm": "deployed",
+  "condition": "fog",
+  "e1_label_histogram": {
+    "clean": 1,
+    "fog": 82,
+    "motion_blur": 339,
+    "rain": 1
+  },
+  "ece15_post_tstar": 0.04193176494704356,
+  "ece15_pre_tstar": 0.346239101731749,
+  "global_seed": 42,
+  "guard_fired_count": 0,
+  "macro_f1": 0.8605062697197209,
+  "n": 423,
+  "nonfinite_fixed_count": 0,
+  "restored_count": 77,
+  "severity": "LOW",
+  "sky_skipped_count": 6,
+  "t_star": 0.458,
+  "wall_s": 34.18
+}

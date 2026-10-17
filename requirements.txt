@@ -1,0 +1,6 @@
+# Versions used to produce the shipped outputs (Python 3.13.5).
+# scripts/ need numpy only; ars/ars_transforms.py and scripts/make_ars_tables.py also need torch and torchvision.
+numpy==2.2.6
+torch==2.8.0
+torchvision==0.23.0
+pytest==9.0.1

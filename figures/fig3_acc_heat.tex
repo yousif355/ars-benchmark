@@ -1,0 +1,24 @@
+\begin{tikzpicture}[font=\scriptsize]
+\def\cs{1.18}
+\node at (1*\cs,0.75) {LOW};
+\node at (2*\cs,0.75) {MEDIUM};
+\node at (3*\cs,0.75) {HIGH};
+\foreach \r/\name in {1/fog,2/rain,3/low\_light,4/motion\_blur,5/camera\_shake}{
+  \node[anchor=east] at (0.45,-\r*\cs+\cs) {\name};
+}
+\node[draw,minimum size=11.2mm,fill=collgood!88!collbad] at (1*\cs,0) {88.42};
+\node[draw,minimum size=11.2mm,fill=collgood!59!collbad] at (2*\cs,0) {58.63};
+\node[draw,minimum size=11.2mm,fill=collgood!19!collbad,text=white] at (3*\cs,0) {18.91};
+\node[draw,minimum size=11.2mm,fill=collgood!67!collbad] at (1*\cs,-\cs) {67.38};
+\node[draw,minimum size=11.2mm,fill=collgood!36!collbad,text=white] at (2*\cs,-\cs) {35.70};
+\node[draw,minimum size=11.2mm,fill=collgood!27!collbad,text=white] at (3*\cs,-\cs) {27.19};
+\node[draw,minimum size=11.2mm,fill=collgood!91!collbad] at (1*\cs,-2*\cs) {90.78};
+\node[draw,minimum size=11.2mm,fill=collgood!84!collbad] at (2*\cs,-2*\cs) {83.69};
+\node[draw,minimum size=11.2mm,fill=collgood!65!collbad] at (3*\cs,-2*\cs) {65.01};
+\node[draw,minimum size=11.2mm,fill=collgood!81!collbad] at (1*\cs,-3*\cs) {81.32};
+\node[draw,minimum size=11.2mm,fill=collgood!53!collbad] at (2*\cs,-3*\cs) {53.43};
+\node[draw,minimum size=11.2mm,fill=collgood!21!collbad,text=white] at (3*\cs,-3*\cs) {20.57};
+\node[draw,minimum size=11.2mm,fill=collgood!91!collbad] at (1*\cs,-4*\cs) {90.54};
+\node[draw,minimum size=11.2mm,fill=collgood!89!collbad] at (2*\cs,-4*\cs) {89.36};
+\node[draw,minimum size=11.2mm,fill=collgood!88!collbad] at (3*\cs,-4*\cs) {88.42};
+\end{tikzpicture}

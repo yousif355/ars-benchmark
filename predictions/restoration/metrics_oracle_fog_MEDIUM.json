@@ -1,0 +1,20 @@
+{
+  "accuracy": 0.8534278959810875,
+  "arm": "oracle",
+  "condition": "fog",
+  "e1_label_histogram": {
+    "fog": 423
+  },
+  "ece15_post_tstar": 0.06742519672176231,
+  "ece15_pre_tstar": 0.30594788005588747,
+  "global_seed": 42,
+  "guard_fired_count": 0,
+  "macro_f1": 0.8301946045463748,
+  "n": 423,
+  "nonfinite_fixed_count": 0,
+  "restored_count": 410,
+  "severity": "MEDIUM",
+  "sky_skipped_count": 13,
+  "t_star": 0.458,
+  "wall_s": 40.51
+}

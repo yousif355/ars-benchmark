@@ -1,0 +1,17 @@
+condition,severity,n,accuracy_pct,ece15_raw_T1,ece15_Tstar_0.4580,accuracy_pct_2dp,ece15_raw_T1_4dp,ece15_Tstar_0.4580_4dp,source
+clean,clean,423,92.671395,0.359052,0.037841,92.67,0.3591,0.0378,predictions/clean/clean_logits.npz
+fog,LOW,423,88.416076,0.346781,0.035489,88.42,0.3468,0.0355,predictions/arm1/logits_arm1_fog_LOW.npz
+fog,MEDIUM,423,58.628842,0.109906,0.254569,58.63,0.1099,0.2546,predictions/arm1/logits_arm1_fog_MEDIUM.npz
+fog,HIGH,423,18.912530,0.305240,0.669383,18.91,0.3052,0.6694,predictions/arm1/logits_arm1_fog_HIGH.npz
+rain,LOW,423,67.375887,0.169122,0.214218,67.38,0.1691,0.2142,predictions/arm1/logits_arm1_rain_LOW.npz
+rain,MEDIUM,423,35.697400,0.126960,0.482455,35.70,0.1270,0.4825,predictions/arm1/logits_arm1_rain_MEDIUM.npz
+rain,HIGH,423,27.186761,0.183918,0.543562,27.19,0.1839,0.5436,predictions/arm1/logits_arm1_rain_HIGH.npz
+low_light,LOW,423,90.780142,0.341816,0.036938,90.78,0.3418,0.0369,predictions/arm1/logits_arm1_low_light_LOW.npz
+low_light,MEDIUM,423,83.687943,0.304622,0.076168,83.69,0.3046,0.0762,predictions/arm1/logits_arm1_low_light_MEDIUM.npz
+low_light,HIGH,423,65.011820,0.153328,0.224059,65.01,0.1533,0.2241,predictions/arm1/logits_arm1_low_light_HIGH.npz
+motion_blur,LOW,423,81.323877,0.298378,0.097496,81.32,0.2984,0.0975,predictions/arm1/logits_arm1_motion_blur_LOW.npz
+motion_blur,MEDIUM,423,53.427896,0.070636,0.295547,53.43,0.0706,0.2955,predictions/arm1/logits_arm1_motion_blur_MEDIUM.npz
+motion_blur,HIGH,423,20.567376,0.255790,0.610838,20.57,0.2558,0.6108,predictions/arm1/logits_arm1_motion_blur_HIGH.npz
+camera_shake,LOW,423,90.543735,0.333087,0.042461,90.54,0.3331,0.0425,predictions/arm1/logits_arm1_camera_shake_LOW.npz
+camera_shake,MEDIUM,423,89.361702,0.329314,0.050262,89.36,0.3293,0.0503,predictions/arm1/logits_arm1_camera_shake_MEDIUM.npz
+camera_shake,HIGH,423,88.416076,0.331984,0.047290,88.42,0.3320,0.0473,predictions/arm1/logits_arm1_camera_shake_HIGH.npz

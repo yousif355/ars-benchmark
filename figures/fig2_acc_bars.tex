@@ -1,0 +1,19 @@
+\begin{tikzpicture}
+\begin{axis}[
+  ybar, bar width=4pt, width=\columnwidth, height=5.2cm,
+  enlarge x limits=0.12, ymin=0, ymax=100,
+  ylabel={Accuracy (\%)}, font=\scriptsize,
+  symbolic x coords={fog,rain,low light,motion blur,camera shake},
+  xtick=data, x tick label style={rotate=20,anchor=east},
+  legend style={at={(0.5,1.05)},anchor=south,legend columns=3,draw=none},
+  ymajorgrids, grid style={gray!20}
+]
+\addplot+[fill=collgood!60] coordinates
+  {(fog,88.42)(rain,67.38)(low light,90.78)(motion blur,81.32)(camera shake,90.54)};
+\addplot+[fill=collmid!70] coordinates
+  {(fog,58.63)(rain,35.70)(low light,83.69)(motion blur,53.43)(camera shake,89.36)};
+\addplot+[fill=collbad!70] coordinates
+  {(fog,18.91)(rain,27.19)(low light,65.01)(motion blur,20.57)(camera shake,88.42)};
+\legend{LOW,MEDIUM,HIGH}
+\end{axis}
+\end{tikzpicture}

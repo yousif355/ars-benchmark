@@ -1,0 +1,16 @@
+condition,severity,accuracy_pct_2dp,ece15_Tstar_0.4580_4dp,fig3_fill_pct,fig4_collapse
+fog,LOW,88.42,0.0355,88,False
+fog,MEDIUM,58.63,0.2546,59,True
+fog,HIGH,18.91,0.6694,19,True
+rain,LOW,67.38,0.2142,67,True
+rain,MEDIUM,35.70,0.4825,36,True
+rain,HIGH,27.19,0.5436,27,True
+low_light,LOW,90.78,0.0369,91,False
+low_light,MEDIUM,83.69,0.0762,84,False
+low_light,HIGH,65.01,0.2241,65,True
+motion_blur,LOW,81.32,0.0975,81,False
+motion_blur,MEDIUM,53.43,0.2955,53,True
+motion_blur,HIGH,20.57,0.6108,21,True
+camera_shake,LOW,90.54,0.0425,91,False
+camera_shake,MEDIUM,89.36,0.0503,89,False
+camera_shake,HIGH,88.42,0.0473,88,False

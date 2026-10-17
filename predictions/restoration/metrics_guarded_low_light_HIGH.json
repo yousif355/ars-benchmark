@@ -1,0 +1,24 @@
+{
+  "accuracy": 0.6453900709219859,
+  "arm": "guarded",
+  "condition": "low_light",
+  "e1_label_histogram": {
+    "camera_shake": 16,
+    "clean": 58,
+    "low_light": 310,
+    "motion_blur": 32,
+    "rain": 7
+  },
+  "ece15_post_tstar": 0.22627019945611343,
+  "ece15_pre_tstar": 0.1505877672569126,
+  "global_seed": 42,
+  "guard_fired_count": 0,
+  "macro_f1": 0.5353603785617692,
+  "n": 423,
+  "nonfinite_fixed_count": 0,
+  "restored_count": 7,
+  "severity": "HIGH",
+  "sky_skipped_count": 0,
+  "t_star": 0.458,
+  "wall_s": 32.9
+}
