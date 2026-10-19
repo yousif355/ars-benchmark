@@ -217,13 +217,12 @@ differently. Each `.npz` records the detector label (`e1_label`) and the flags
 
 ## Model weights
 
-The classifier checkpoint is published as a release asset, not in this folder;
-download location: [ANONYMOUS-HOST-URL, to be inserted before submission].
+The classifier checkpoint (sha256 below) is not hosted during review; it will be released with the published version.
 The detector weights are in this folder:
 
 | File | Where | Size (B) | sha256 |
 |---|---|---|---|
-| `hvt_best_ema_v24.pt` | release asset | 104,838,745 | `5aa9b57745d671ff78fb4ea47800e87d856f4f3597ee7de14336e8213513dfdd` |
+| `hvt_best_ema_v24.pt` | not hosted during review | 104,838,745 | `5aa9b57745d671ff78fb4ea47800e87d856f4f3597ee7de14336e8213513dfdd` |
 | `tiny_cnn.pt` (degradation detector) | `weights/tiny_cnn.pt` | 22,529 | `81367393dc2882961ce53c0e714553900d206e0a80d9e770152f5e87552baad4` |
 
 `tiny_cnn.pt` is a PyTorch state dict. `hvt_best_ema_v24.pt` is a checkpoint
